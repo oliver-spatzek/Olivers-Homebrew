@@ -1,0 +1,68 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "OliversUniques",
+				"abbreviation": "OU",
+				"full": "Olivers Uniques",
+				"version": "1",
+				"authors": [
+					"Oliver L.S"
+				],
+				"convertedBy": [
+					"Oliver L.S"
+				]
+			}
+		]
+	},
+	"spell": [
+		{
+			"name": "Bottle Soul",
+			"level": 5,
+			"school": "N",
+			"time": [
+				{
+					"number": 1,
+					"unit": "reaction",
+					"condition": "which you take when a humanoid you can see within 60 feet of you dies"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 8
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Warlock",
+						"source": "XPHB"
+					}
+				]
+			},
+			"entries": [
+				"This spell snatches the soul of a humanoid as it dies and traps it inside the bottle you use for the material component. A stolen soul remains inside the bottle until the spell ends or until you destroy the bottle, which ends the spell. While you have a soul inside the bottle, you can use it in any of the ways described below. You can use a trapped soul up to 3 times. Once you use a soul for the third time, it becomes inert, and the spell ends. While a soul is trapped, the dead humanoid it came from can't be revived.",
+				"Borrow Life: You can use a bonus action to drain vigor from the soul and regain {@dice 2d8} hit points.",
+				"Borrow Experience: You can use a bonus action to bolster yourself with the soul's life experience, making your next attack roll, ability check, or saving throw with advantage. If you don't use this benefit before the start of your next turn, it is lost.",
+				"A creature that can see the bottle (such as one using see invisibility or truesight) sees a translucent image of the deceased humanoid whose soul you caged."
+			],
+			"source": "OliversUniques",
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "A glass bottle with a cork worth atleast 5 cp"
+			}
+		}
+	]
+}
